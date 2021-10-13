@@ -1,0 +1,725 @@
+
+*{
+    padding: 0;
+    margin:0;
+    outline: 0;
+}
+
+
+/*indexxxx*/
+
+.nav-farg{
+    background-color: #f3e7de;
+}
+.navbar{
+   display: flex;
+   margin: 1rem;
+   background: linear-gradient(to bottom, #328583 50%, #d1b171 50%);
+   flex-direction: row;
+   justify-content: center;
+   margin-top: 5rem;
+}
+
+
+
+.navbar li{
+   list-style: none;
+   margin: 2rem 2rem;
+   width: 100%;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: #d4d2c7;
+    font-size: 19px;
+    text-shadow:  4px 1px 2px rgb(148, 96, 96), 0 0 1em #b1a86e , 0 0 0.15em rgb(107, 107, 117);
+}
+
+.navbar li a:hover{
+    text-decoration: underline  rgb(90, 82, 82) 1px solid;
+}
+
+nav{
+    grid-row: 1/2;
+    grid-column: 1/4;
+}
+
+.navlogo{
+    margin-left: 25rem;
+    margin-top: -1rem;
+}
+
+
+
+
+/*ASSSSide*/
+
+.gridcon{
+  display: grid;
+  grid-template-columns: 10rem 2rem auto ;
+  grid-template-rows:15rem 5rem auto 10rem;
+}
+
+
+
+aside{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+}
+
+aside a{
+    text-decoration: none;
+
+    margin-top: 2rem;
+
+    font-size: 20px;
+    color: rgb(18, 13, 92);
+}
+
+
+/*indexxx-maiainnnnnnnnnnnnn*/
+
+.index-body{
+    background-color: #f3e7de;
+}
+main{
+    grid-row:3/4 ;
+    grid-column: 3/4;
+}
+
+.main-img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.main-img img{
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.upp{
+    margin: 10rem;
+}
+
+.down{
+    margin: 10rem;
+}
+
+
+
+footer{
+    grid-row:4/5 ;
+    grid-column: 1/4;
+    color: rgb(218, 194, 150);
+    padding-top: 2rem;
+    background-color: black;
+}
+
+.pic1:hover{
+    background-color: #f0dfd3;
+}
+
+.pic2:hover{
+    background-color: #1A1E26 ;
+
+}
+
+.pic3:hover{
+    background-color: #8090A6 ;
+}
+
+.pic4:hover{
+    background-color: #BFA678 ;
+}
+
+.down :hover{
+    background-color: rgb(218, 194, 150);
+}
+
+
+
+
+
+/*foootteree*/
+
+.foterlogo{
+    position: fixed;
+    bottom: 0;
+    opacity: 0.3;
+}
+
+.footer-p {
+    text-align: center;
+}
+
+/*******************Index - slut ***************************/
+
+
+
+
+
+
+
+
+/*rickkkkanddddmortyyyyyyyyyy*/
+
+
+
+
+.rm-con{
+    background-color: #f3e7de;
+    display: grid;
+    grid-template-rows: 20rem auto   ;
+    grid-template-columns: 30%  auto  30%  ;
+
+}
+.rm-right{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    margin-left: 5rem;
+    
+}
+
+.rm-left{
+    grid-row:2/3 ;
+    grid-column: 1/2;
+    margin-left: 1rem;
+   
+}
+.rm-p{
+    grid-row: 2/3;
+    grid-column: 2/3;
+
+}
+
+.rm-p h2{
+    text-align: center;
+}
+
+.rm-footer{
+
+    margin-left: 46%;
+
+
+}
+
+
+/*******************rick and morty - slut***************************/
+
+
+/*Kontaakkttmeemeemmeemme*/
+
+
+.kontakt-grid{
+    display: grid;
+    grid-template-columns: 20rem  ;
+    grid-template-rows:20rem 20rem 20rem  ;
+}
+
+.kont-logo{
+    margin-left: 8rem;
+}
+
+.kont1{
+    grid-column:1/2 ;
+    grid-row:1/2 ;
+}
+
+
+
+.kont2{
+    grid-column:1/2 ;
+    grid-row:2/3 ;
+    margin-top: 2rem;
+}
+
+.kont2 h3{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 30px;
+}
+
+.kont3{
+    grid-column:1/2 ;
+    grid-row: 3/4;
+}
+
+.kont3 p{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 20px;
+}
+
+/******************kontakt - slut****************************/
+
+
+
+
+/*Faderrrr*/
+.fader {
+    position: relative;
+    width: 90%;
+    height: 250px;
+    margin-left: 2.5rem;
+  }
+
+  .fader-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .fade-over {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+
+  .fader:hover .fade-over {
+    opacity: 1;
+  }
+
+  .fade-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+/*******************fader -slut***************************/
+
+
+/*forummmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+
+.why{
+    position: absolute;
+    color: wheat;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: royalblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .Forum {
+      margin-top: -57rem;
+    margin-left: 25rem;
+    width: 50vw;
+    border-radius: 5px;
+    padding: 5px;
+
+  }
+
+/**********************************************/
+
+
+
+
+
+
+/*ABout meeeeeeeeeeeeeeeeeee*/
+
+.aboutme-grid{
+
+    margin: 2rem;
+    max-width: 100%;
+    display: grid;
+    grid-template-rows: 25rem 3rem 15rem;
+    grid-template-columns: 13rem 13rem 20rem 13rem 13rem ;
+}
+
+.jag{
+    grid-row:1/2 ;
+    grid-column:1/3 ;
+}
+
+.minfru{
+    grid-row:1/2 ;
+    grid-column:4/6 ;
+    margin-left: 3rem;
+}
+
+
+.barn{
+    display: flex;
+    grid-row:3/4 ;
+    grid-column:2/5 ;
+}
+
+.barn img{
+    margin-left: 6rem;
+}
+
+
+.klicktosee{
+    margin-top: 12rem;
+    margin-left: -21rem;
+}
+
+
+
+
+
+/******************ABout me-slut****************************/
+
+/*bild-gallerybild-gallerybild-gallerybild-gallerybild-gallerybild-gallerybild-gallery*/
+
+.bild-gallery{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 8rem ;
+}
+
+.bild-gallery img{
+    margin: 2rem;
+    border: rgb(88, 73, 2) dashed 1px ;
+}
+
+
+
+
+/***************Bild-gallery - slut*******************************/
+
+
+
+
+
+
+
+/*foooooodoooooododoofodfodfo*/
+.food-body{
+    background-color: #BFA678;
+}
+
+.food-gallery{
+    display: flex;
+    flex-direction: column;
+}
+
+.food-gallery{
+    margin-left: 3rem;
+}
+
+
+
+/**********************************************/
+
+/*Motorrrrrrrrrrrrrrrrrrrrrr*/
+.motor-body{
+    background-color: #616b77;
+}
+
+.motor-gallery{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 15rem;    
+}
+
+.grp1{
+    display: block;
+}
+
+/***************motor-slut*******************************/
+
+
+
+
+/*TOdooooooooooooooooooooozzzzz*/
+
+
+
+.todo-body{
+    background-color:#1A1E26 ;
+    }
+    
+    
+    /**************Toto - slut********************************/
+
+
+
+
+
+
+
+/*Media för index */
+
+@media  screen and (max-width: 856px){
+    .navlogo{
+        width: 45vh;
+        margin: 10rem;
+     }
+    }
+
+@media  screen and (max-width: 626px){
+.navlogo{
+    width: 45vh;
+    margin: 0rem;
+ }
+
+}
+@media  screen and (max-width: 950px){
+    .gridcon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    
+    }
+    .navlogo{
+        width: 45vh;
+        margin: 10;
+     }
+   
+    .navbar{
+        margin: 0;
+    }
+    
+    .navbar li{
+        margin: 1rem 1rem;
+    }
+
+    aside{
+        
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+       }
+
+   .upp {
+    
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+   }
+
+   .down {
+    
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+}
+
+.foterlogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+} 
+
+.main-img{
+    padding: 0;
+    margin: 0;
+
+}
+} 
+/**********************************************/
+
+
+
+
+
+/*Media för Rick and Morty */
+
+
+@media  screen and (max-width: 1074px){
+    .rm-con{
+        display: flex;
+        flex-wrap: wrap;      
+    }
+
+    .rm-right{
+        margin-left: 0;
+    }
+  
+.rm-right img{
+    margin-left: 1rem;
+   width: 25vw;
+}
+
+  .rm-left{
+      margin-left: 0;
+  }
+
+.rm-left img{
+     margin-left: 1rem;
+    width: 25vw;
+}
+
+h2{
+    font-size: 1,1rem;
+}
+
+h3{
+    font-size: .9rem;
+}
+
+p{
+    font-size:.75rem ;
+}
+
+}
+
+/**********************************************/
+
+
+/*Media för kontakta mig*/
+
+
+@media  screen and (max-width: 1024px){
+
+    .kontakt-con{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Forum{
+        margin-left: 2rem;
+        margin-top: 0;
+        width: 70vw;
+    }
+
+    .why{
+        width: 70vw;
+    }
+
+.form-pic{
+    width: 70vw;
+}    
+
+}
+
+
+/**********************************************/
+
+/*Media för Om Mig*/
+
+@media  screen and (max-width: 822px){
+    .aboutme-grid{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+    .minfru{
+    margin-left: 0;
+}
+
+    .barn img{
+    margin: 0;
+    width: 40vw;
+}
+
+.klicktosee{
+    margin-top: 8rem;
+    margin-left: -15rem;
+}
+
+    .jag img {
+    width: 50vw;
+}
+
+    .minfru img{
+    width: 50vw;
+}
+
+}
+
+    
+
+
+/**********************************************/
+
+/*Media för Gallery*/
+
+
+@media  screen and (max-width: 600px){
+    .grp1 img , .grp2 img{
+      
+     width: 50vw;
+    }
+
+    .bild-gallery img{
+     margin: 0;
+    }
+
+    .bild-gallery{
+    margin-left: 6rem;
+}
+
+}
+
+/**********************************************/
+
+/*Media för Motor*/
+
+@media  screen and (max-width: 600px)
+{
+    .motor-gallery{
+     margin-left: 4.5rem;
+    }
+}
+
+/**********************************************/
+
+/*Media för Food*/
+
+@media  screen and (max-width: 600px){
+    .food-gallery{
+    display: flex;   
+    flex-direction: column;
+
+
+}
+    .food-logo{
+     max-width: 100%;
+    }
+}
+
+
+/**********************************************/
